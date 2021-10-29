@@ -1,0 +1,375 @@
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+  font-weight: normal;
+	font-style: normal;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    
+    
+    
+}
+header
+{
+    width: 100%;
+    height: 75px;
+    background-color: hsl(21deg 87% 65%);
+    
+}
+nav
+{
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: fixed;
+    background-color: hsl(21deg 87% 65%);
+   
+}
+.nv-left img{
+    height: 49px;
+    margin-left: 42%;
+    margin-top: -5px;
+    
+}
+.nv-left
+{
+    display: flex;
+    padding-left: 20px;
+}
+.nv-left ul 
+{
+    display: flex;
+    margin-left: 20px;
+}
+.nv-left ul li
+{
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 60px;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+
+}
+.nv-left ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.nv-right a:first-child
+{
+    background-color: rgb(3, 32, 48);
+    border-radius: 8px;
+}
+.nv-right a:hover{
+    background-color:#03415a;
+}
+.nv-right a
+{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    font-weight:800;
+    font-size: 12px;
+    padding: 12px 25px;
+    
+   
+
+    
+}
+.nv-right
+{
+    margin-top: 11px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 342px;
+    
+}
+.nv-right a:last-child
+{
+    border: #fff 2px solid;
+    border-radius: 8px;
+    
+}
+.cont h1
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+    font-size: 70px;
+    padding-top: 150px; 
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+.cont p
+{
+    font-family: Georgia;
+    color: rgb(69, 36, 27);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+.cont{
+    background-color: hsl(21deg 87% 65%);
+    
+    height: 38vh;
+   
+    
+}
+
+main{
+    padding-top: 70px;
+}
+main p{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(53, 49, 49);
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+
+
+}
+.mainleft{
+    float: left;
+    width: 40%;
+    padding-left: 200px;
+
+
+}
+main h1{
+    color: rgb(85, 181, 221);
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+.mainright{
+    float: left;
+    width: 40%;
+    
+    
+   
+    
+
+   
+}
+.mainright a{
+    text-decoration: none;
+    color: coral;
+    
+}
+
+form input, textarea{
+    width: 80%;
+    height: 50px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    border-radius: 5px;
+   border : solid;
+   border-color: #c0c6cc;
+   font-style: italic;
+   border-width: 1px;
+  
+   
+    
+   
+}
+form textarea {
+    border-color: #c0c6cc;
+    border-width: 1px;
+    
+    
+}
+
+form{
+    margin-top: 40px;
+    
+    
+   
+}
+textarea{
+    height: 150px;
+  
+}
+.right{
+    width: 70%;
+  
+}
+main h2{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 70px;
+    
+}
+.text-grey {
+    color: rgb(43, 41, 41);
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+.mainright img{
+    width: 13%;
+    float: left;
+    margin-right: 20px;
+    color: #F49B6C;
+    margin-top: -20px;
+}
+.mainright p{
+font-size: 20px;
+}
+form a{
+    width: fit-content;
+    font-size: 20px;
+    padding: 0;width: 200px;
+    height: 45px;
+    float: right;
+    margin-right: 45px;
+    border-style: none;
+    background-color: #F49B6C;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    Padding-top: 30px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    
+}
+form a:hover{
+    background-color: rgb(243, 142, 88);
+}
+
+
+/*start footer*/
+footer{
+    height: 330px;
+    background-color: #404040;
+    margin-top: 50%;
+    padding-left: 15%;
+}
+.Footer{
+    width: 1340px;
+    height: 0px;
+    
+    padding-top: 5px;
+    padding-left: 80px;
+    
+
+}
+.Second{
+    width: 200px;
+    height: 290px;
+    margin-top:20px;
+    
+    font-size: 15px;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.61);
+    font-weight: lighter;
+    
+}
+
+.Help{
+    width: 200px;
+    height: 300px;
+    margin-top:-370px;
+    margin-left: 270px;
+    
+    font-size: 15px;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.61);
+    font-weight: lighter;
+    
+}
+.h6{
+    font-size: 18px;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin-top: 30px;
+    height: 0;
+}
+.Resources{
+    margin-top: -152px;
+    margin-left:170px ;
+    width: 100px;
+    
+}
+.Landing-Pages{
+    margin-top: -217px;
+    margin-left:330px ;
+    width: 160px;
+}
+.Commercial{
+    margin-top: -280px;
+    margin-left:560px ;
+    width: 180px;
+}
+.Commercial i{
+    color: #F49B6C;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.Try{
+    margin-top: -220px;
+    margin-left:750px ;
+    width: 190px;
+
+}
+.button3{
+    margin-top: 30px;
+}
+.button-3{
+    width: 180px;
+    height: 70px;
+    border-radius: 10px;
+    color:white;
+    border:1px solid #01212e;
+    font-size: 16px;
+    font-family: Arial;
+    background-color:#01212e;
+    text-transform: uppercase;
+
+
+}
+.button-3:hover{
+   
+    background-color:#03415a;
+   
+    
+
+}
+/*End footer*/
+
+/*start lastfooter*/
+.lastfooter{
+   height: 40px;
+   background-color: #333333;
+   margin-top: -18px;
+   padding-left: 15%;
+}
+.policy{
+    padding-top:10px;
+    padding-left: 80px;
+    color: rgba(255, 255, 255, 0.534);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  .policycolor{
+      font-size: 17px;
+      color:#F49B6C ;
+      font-weight:lighter;
+  }
+/*End lastfooter*/
